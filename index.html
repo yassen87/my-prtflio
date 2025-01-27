@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassen Mostafa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+    <div class="background-text">Welcome To My Portfolio</div>
+    <div id="yaso1">
+        <header id="yaso2">
+            Welcome To my portfolio 
+        </header>
+        <img src="WhatsApp Image 2025-01-20 at 21.29.51_ee4a1a9f.jpg" alt="icon" id="yaso3">
+    </div>
+    <div class="project-box">
+        <h2>My first project</h2>
+        <p>This Description</p>
+    </div>
+    <div class="project-box">
+        <h2>Project 2</h2>
+        <p>Project 2 description</p>
+    </div>
+    <div class="project-box">
+        <h2>Project 3</h2>
+        <p>Project 3 description</p> 
+    </div>
+    <div class="social-icons">
+        <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <script>
+        document.querySelectorAll('.project-box').forEach(box => {
+            box.addEventListener('click', () => {
+                box.classList.toggle('animate');
+            });
+        });
+    </script>
+</body>
+</html>
